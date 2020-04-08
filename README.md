@@ -27,14 +27,14 @@ Este repositório consiste em armazenar os códigos produzidos durante os estudo
 
 |    Módulos    |  Título  |
 |:-------------:|:---------:|
-| **Módulo 01** | [Conceitos de NodeJS](https://github.com/felipersdf/GoStack11/tree/master/modulo01) |
+| **Módulo 01** | [Conceitos de NodeJS](https://github.com/felipersdf/GoStack11/tree/master/backend) |
+| **Módulo 02** | [Conceitos de ReactJS](https://github.com/felipersdf/GoStack11/tree/master/frontend) |
 
 </div>
 
 ------
 <!-- 
 
-| **Módulo 02** | []() |
 | **Módulo 03** | []() |
 | **Módulo 04** | []() |
 | **Módulo 05** | []() |
