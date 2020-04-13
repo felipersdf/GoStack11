@@ -25,20 +25,10 @@ Este repositório consiste em armazenar os códigos produzidos durante os estudo
 ## :paperclip: Links 
 <div align="center" >
 
-|    Módulos    |  Título  |
-|:-------------:|:---------:|
-| **Módulo 01** | [Conceitos de NodeJS](https://github.com/felipersdf/GoStack11/tree/master/backend) |
-| **Módulo 02** | [Conceitos de ReactJS](https://github.com/felipersdf/GoStack11/tree/master/frontend) |
-| **Módulo 03** | [Conceitos de React Native](https://github.com/felipersdf/GoStack11/tree/master/mobile) |
+|    Levels    |  Título  |
+|:-------------:|:--------:|
+| **Nível 01**  | [Conceitos de NodeJS](https://github.com/felipersdf/GoStack11/tree/master/backend)<br>[Conceitos de ReactJS](https://github.com/felipersdf/GoStack11/tree/master/frontend)<br>[Conceitos de React Native](https://github.com/felipersdf/GoStack11/tree/master/mobile)<br> [Conceitos de TypeScript](https://github.com/felipersdf/GoStack11/tree/master/typescript) |
+| **Nível 02**  | [Primeiro Projeto com Noje.js](https://github.com/felipersdf/GoStack11/tree/master/primeiro-projeto-node/) |
 </div>
 
 ------
-<!-- 
-
-| **Módulo 04** | []() |
-| **Módulo 05** | []() |
-| **Módulo 06** | []() |
-| **Módulo 07** | []() |
-| **Módulo 08** | []() |
-| **Módulo 09** | []() |
-| **Módulo 10** | []() | -->
