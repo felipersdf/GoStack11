@@ -18,14 +18,14 @@
 ---
 
 ## :rocket: Sobre este repositório
-Este repositório consiste em armazenar os códigos produzidos durante os estudo dos módulos do bootcamp GoStack 11.0 da [RocketSeat](http://www.rocketseat.com.br) 
+Este repositório consiste em armazenar os códigos produzidos durante os estudos dos módulos do bootcamp GoStack 11.0 da [RocketSeat](http://www.rocketseat.com.br) 
 
 ---
 
 ## :paperclip: Links 
 <div align="center" >
 
-|    Levels    |  Título  |
+|    Níveis    |  Títulos  |
 |:-------------:|:--------:|
 | **Nível 01**  | [Conceitos de NodeJS](https://github.com/felipersdf/GoStack11/tree/master/backend)<br>[Conceitos de ReactJS](https://github.com/felipersdf/GoStack11/tree/master/frontend)<br>[Conceitos de React Native](https://github.com/felipersdf/GoStack11/tree/master/mobile)<br> [Conceitos de TypeScript](https://github.com/felipersdf/GoStack11/tree/master/typescript) |
 | **Nível 02**  | [Primeiro Projeto com Noje.js](https://github.com/felipersdf/GoStack11/tree/master/primeiro-projeto-node/)<br>[Iniciando o back-end do app](https://github.com/felipersdf/GoStack11/tree/master/iniciando-back-end/) |
