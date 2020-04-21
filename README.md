@@ -29,7 +29,7 @@ Este repositório consiste em armazenar os códigos produzidos durante os estudo
 |:-------------:|:--------:|
 | **Nível 01**  | [Conceitos de NodeJS](https://github.com/felipersdf/GoStack11/tree/master/backend)<br>[Conceitos de ReactJS](https://github.com/felipersdf/GoStack11/tree/master/frontend)<br>[Conceitos de React Native](https://github.com/felipersdf/GoStack11/tree/master/mobile)<br> [Conceitos de TypeScript](https://github.com/felipersdf/GoStack11/tree/master/typescript) |
 | **Nível 02**  | [Primeiro Projeto com Noje.js](https://github.com/felipersdf/GoStack11/tree/master/primeiro-projeto-node/)<br>[Iniciando o back-end do app](https://github.com/felipersdf/GoStack11/tree/master/iniciando-back-end/) |
-| **Nível 03**  | [Primeiro Projeto com React](https://github.com/felipersdf/GoStack11/tree/master/primeiro-projeto-react/)<br> |
+| **Nível 03**  | [Primeiro Projeto com React](https://github.com/felipersdf/GoStack11/tree/master/primeiro-projeto-react/)<br>[Iniciando o app GoBarber web](https://github.com/felipersdf/GoStack11/tree/master/gobarber-web) |
 </div>
 
 ------
