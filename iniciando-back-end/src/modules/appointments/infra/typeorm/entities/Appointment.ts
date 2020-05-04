@@ -1,5 +1,14 @@
-import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn, ManyToOne, JoinColumn } from 'typeorm';
-import User from './User';
+import {
+   Entity,
+   Column,
+   PrimaryGeneratedColumn,
+   CreateDateColumn,
+   UpdateDateColumn,
+   ManyToOne,
+   JoinColumn,
+} from 'typeorm';
+
+import User from '@modules/users/infra/typeorm/entities/User';
 
 @Entity('appointments')
 class Appointment {
@@ -21,7 +30,6 @@ class Appointment {
 
    @UpdateDateColumn()
    updated_at: Date;
-
 }
 
 export default Appointment;
