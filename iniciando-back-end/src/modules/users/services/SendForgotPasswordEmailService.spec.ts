@@ -7,8 +7,8 @@ import FakeUserTokensRepository from '../repositories/fakes/FakeUserTokensReposi
 import SendForgotPasswordEmailService from './SendForgotPasswordEmailService';
 
 let fakeUsersRepository: FakeUsersRepository;
-let fakeMailProvider: FakeMailProvider;
 let fakeUserTokensRepository: FakeUserTokensRepository;
+let fakeMailProvider: FakeMailProvider;
 let sendForgotPasswordEmail: SendForgotPasswordEmailService;
 
 describe('SendForgotPassword', () => {
