@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTransition } from 'react-spring';
 
-import { FiAlertCircle, FiXCircle } from 'react-icons/fi';
-
 import Toast from './Toast';
 import { ToastMessage } from '../../hooks/toast';
 import { Container } from './styles';

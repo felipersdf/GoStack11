@@ -3,22 +3,22 @@ import { animated } from 'react-spring';
 
 interface ContainerProps {
   type?: 'success' | 'error' | 'info';
-  hasDescription: boolean;
+  hasDescription: number;
 }
 
 const toastTypeVariations = {
   info: css`
-    background: #EBF8FF;
-    color: #3172B7;
+    background: #ebf8ff;
+    color: #3172b7;
   `,
   success: css`
-    background: #E6FFFA;
-    color: #2E656A;
-`,
+    background: #e6fffa;
+    color: #2e656a;
+  `,
   error: css`
-    background: #FDDEDE;
+    background: #fddede;
     color: #c53030;
-`,  
+  `,
 };
 
 export const Container = styled(animated.div)<ContainerProps>`
@@ -27,7 +27,7 @@ export const Container = styled(animated.div)<ContainerProps>`
   position: relative;
   padding: 16px 30px 16px 16px;
   border-radius: 10px;
-  box-shadow: 2px 2px 8px rgba(0,0,0, 0.2);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 
   display: flex;
 
@@ -59,13 +59,15 @@ export const Container = styled(animated.div)<ContainerProps>`
     opacity: 0.6;
     background: transparent;
     border: 0;
-    color: inherit
+    color: inherit;
   }
 
-  ${props => !props.hasDescription && css `
-    align-items: center;
-    svg {
-      margin-top: 0;
-    }
-  `}
+  ${(props) =>
+    !props.hasDescription &&
+    css`
+      align-items: center;
+      svg {
+        margin-top: 0;
+      }
+    `}
 `;
