@@ -1,25 +1,28 @@
 import React, { createContext, useCallback, useState, useContext } from 'react';
 import api from '../services/api';
 
+interface User {
+  id: string;
+  name: string;
+  avatar_url: string;
+}
+
+interface AuthState {
+  token: string;
+  user: User;
+}
 interface SignInCredentials {
   email: string;
   password: string;
 }
 
-interface AuthState {
-  token: string;
-  user: object;
-}
-
 interface AuthContextData {
-  user: object;
+  user: User;
   signIn(credentials: SignInCredentials): Promise<void>;
   signOut(): void;
 }
 
-const AuthContext = createContext<AuthContextData>(
-  {} as AuthContextData
-);
+const AuthContext = createContext<AuthContextData>({} as AuthContextData);
 
 const AuthProvider: React.FC = ({ children }) => {
   const [data, setData] = useState<AuthState>(() => {
@@ -34,12 +37,12 @@ const AuthProvider: React.FC = ({ children }) => {
   });
 
   const signIn = useCallback(async ({ email, password }) => {
-    const response = await api.post('sessions', {
+    const response = await api.post('/sessions', {
       email,
       password,
     });
 
-    const { user, token } = response.data;
+    const { token, user } = response.data;
 
     localStorage.setItem('@GoBarber:token', token);
     localStorage.setItem('@GoBarber:user', JSON.stringify(user));
@@ -48,8 +51,8 @@ const AuthProvider: React.FC = ({ children }) => {
   }, []);
 
   const signOut = useCallback(() => {
-    localStorage.remoteItem('@GoBarber:token');
-    localStorage.remoteItem('@GoBarber:user');
+    localStorage.removeItem('@GoBarber:token');
+    localStorage.removeItem('@GoBarber:user');
 
     setData({} as AuthState);
   }, []);
@@ -58,8 +61,8 @@ const AuthProvider: React.FC = ({ children }) => {
     <AuthContext.Provider value={{ user: data.user, signIn, signOut }}>
       {children}
     </AuthContext.Provider>
-  );  
-}
+  );
+};
 
 function useAuth(): AuthContextData {
   const context = useContext(AuthContext);
@@ -70,6 +73,5 @@ function useAuth(): AuthContextData {
 
   return context;
 }
-
 
 export { AuthProvider, useAuth };

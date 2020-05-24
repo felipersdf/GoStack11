@@ -10,12 +10,11 @@ import Routes from './routes';
 const App: React.FC = () => (
   <BrowserRouter>
     <AppProvider>
-        <Routes />
+      <Routes />
     </AppProvider>
-    
+
     <GlobalStyle />
   </BrowserRouter>
-)
-
+);
 
 export default App;
